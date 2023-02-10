@@ -1,0 +1,24 @@
+<ContentPage
+  x:Class="CollectionViewDemos.MainPage"
+  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:views="clr-namespace:CollectionViewDemos.Views"
+  Title="CollectionView demos">
+  <TableView Intent="Menu">
+    <TableRoot>
+      <TableSection Title="Layout">
+        <TextCell
+          Command="{Binding NavigateCommand}"
+          CommandParameter="{x:Type views:ScrollListPage}"
+          Detail="Scroll bar visibility issue"
+          Text="Scroll view" />
+        <TextCell
+          Command="{Binding NavigateCommand}"
+          CommandParameter="{x:Type views:VerticalListPage}"
+          Detail="Scroll bar visibility issue"
+          Text="Collection view" />
+
+      </TableSection>
+    </TableRoot>
+  </TableView>
+</ContentPage>

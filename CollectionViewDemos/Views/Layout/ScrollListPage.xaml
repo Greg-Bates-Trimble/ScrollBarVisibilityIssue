@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+  x:Class="CollectionViewDemos.Views.ScrollListPage"
+  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  Title="Scroll view">
+  <ScrollView VerticalScrollBarVisibility="Always">
+    <VerticalStackLayout Spacing="20">
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Bunch"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Of"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Text"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="To"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Scroll"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Through"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="For"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Recreating"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="This"
+        VerticalOptions="Center" />
+      <Label
+        FontSize="50"
+        HorizontalOptions="Center"
+        Text="Bug"
+        VerticalOptions="Center" />
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>
